@@ -34,6 +34,7 @@ function checkAnswer() {
 
 function nextQuiz() {
     makeQuiz(quiz);
+    return checkAnswer.innerHTML = "";
 }
 
 makeQuiz(quiz);
