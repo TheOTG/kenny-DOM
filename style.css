@@ -1,0 +1,17 @@
+html {
+  background-color: rgb(218, 218, 218);
+  font-family: "Quicksand", sans-serif;
+  scroll-behavior: smooth;
+}
+
+p {
+  margin: 0 0 3px 0;
+}
+
+#minInput {
+  margin: 0 0 0 10px;
+}
+
+#maxInput {
+  margin: 0 0 0 6px;
+}

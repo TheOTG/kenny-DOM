@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Final Project DOM</title>
+  </head>
+  <body>
+    <div id="random">
+      <h1>Random Number Generator</h1>
+
+      <h2>1 to Input Number</h2>
+      <p>
+        <label for="numInput">
+          Input number: <input type="number" id="numInput" value="">
+        </label>
+      </p>
+      <p>
+        <button id="randomBtn">Generate!</button>
+      </p>
+      <p>
+        Result: <label id="randomNum"></label>
+      </p>
+
+      <h2>Between 2 Input Number</h2>
+      <p>
+        <label for="minInput">
+          Min: <input type="number" id="minInput" value="">
+        </label>
+      </p>
+      <p>
+        <label for="maxInput">
+          Max: <input type="number" id="maxInput" value="">
+        </label>
+      </p>
+      <p>
+        <button id="randomMinMax">Generate!</button>
+      </p>
+      <p>
+        Result: <label id="minMaxNum"></label>
+      </p>
+    </div>
+
+    <div id="prime">
+      <h1>Check Prime Number</h1>
+      <p>
+        <label for="primeInput">
+          Input number: <input type="number" id="primeInput" value="">
+        </label>
+      </p>
+      <p>
+        <button id="primeBtn">Check Number!</button>
+      </p>
+      <p>
+        Result: <label id="primeNum"></label>
+      </p>
+    </div>
+
+    <div id="quiz">
+      <h1>Simple Math Quiz</h1>
+      <p>
+        What is <label id="question"></label> ? <br>
+        <label for="quizInput">
+          Input number: <input type="number" id="quizInput" value="">
+        </label>
+      </p>
+      <p>
+        <button id="checkBtn">Enter!</button>
+      </p>
+      <p>
+        <label id="checkAnswer"></label>
+      </p>
+    </div>
+    <script src="script-randomNumber.js"></script>
+    <script src="script-checkPrime.js"></script>
+  </body>
+</html>
