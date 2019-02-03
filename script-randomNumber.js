@@ -13,7 +13,7 @@ function displayRandom() {
 
 function displayMinMaxRandom() {
     if(Number(max.value) > Number(min.value)) {
-        return document.getElementById("minMaxNum").innerHTML = Math.floor(Math.random() * (Number(max.value) - Number(min.value)) + Number(min.value));
+        return document.getElementById("minMaxNum").innerHTML = Math.floor(Math.random() * (Number(max.value) - Number(min.value) + 1) + Number(min.value));
     }
     return document.getElementById("minMaxNum").innerHTML = "Max value has to be greater than Min value!";
 }
